@@ -11,25 +11,25 @@ print("===== define (parameter) vs CALL (argument) =====")
 # Instead of block {} in JAWA, Python uses indentation!
 
 
-# DEFINE - parameter 
+# DEFINE - parameter
 def greet(a):
     print(f"How do you do, {a}")
-    
-    
+
+
 def greeting(b):
     print("greeting is executed")
     return f"Hi {b}"
 
-      
-# CALL - argument 
+
+# CALL - argument
 result1 = greet('Martin')
 print("result1:", result1)
 
 result2 = greeting("Justin")
 print("result2:", result2)
-     
- 
-print("===== Keyboard & default arguments =====") 
+
+
+print("===== Keyboard & default arguments =====")
 
 
 # DEFINE
@@ -44,3 +44,17 @@ print("result3:", result3)
 
 result4 = give_greet("John")
 print("result:", result4)
+
+
+print("===== Scope =====")
+b = 100  # 3
+
+
+# DEFINE
+def calculate(a, b):  # 2
+    c = a * b  # 1
+    print(f"the c value: {c}")
+
+
+# CALL
+calculate(5, 50)
