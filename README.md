@@ -5,7 +5,7 @@ Learning GIT and Python Foundation
 ## GIT COMMANDS:
 ```
 git config --global user.name
-git config --global user.name ""
+git config --global user.name "your_name"
 git config --global user.email "your_email@example.com"
 git init
 
@@ -16,8 +16,6 @@ git commit -m "feat: Initial Setup"
 git. remote add origin http://github_address
 git push origin master
 git pull origin master
-
-
 ```
 
 ## Python Foundation: 
@@ -25,8 +23,13 @@ git pull origin master
 -Primitive Variables
 -Function
 -Object 
--Class
--Class deep dive
+-Class about
+-Class deep dive > Encapsulation
+-Class deep dive > Inheritence Polimorphism 
 -Operation & Conditions
 -Loops
--...
+-Tuple
+-List 
+-Array
+-Comprehension
+-Debugging
