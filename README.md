@@ -20,16 +20,28 @@ git pull origin master
 
 ## Python Foundation: 
 
--Primitive Variables
--Function
--Object 
--Class about
--Class deep dive > Encapsulation
--Class deep dive > Inheritence Polimorphism 
--Operation & Conditions
--Loops
--Tuple
--List 
--Array
--Comprehension
--Debugging
+- Primitive Variables
+- Function
+- Object 
+- Class about
+- Class deep dive > Encapsulation
+- Class deep dive > Inheritence Polimorphism 
+- Operation & Conditions
+- Loops
+- Tuple
+- List 
+- Array
+- Comprehension
+- Packages & Debugging
+
+## Pip commands:
+```
+ windows pip | macos pip3
+
+ pip list 
+ pip install pillow
+ pip uninstall pillow
+ pip show pillow
+ pip3 freeze > requirements.txt
+
+```
